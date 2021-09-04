@@ -1,0 +1,128 @@
+body{
+    background-image: linear-gradient(to top, rgba(2, 89, 250, 0.534), rgba(233, 188, 136, 0.712));
+}
+
+aside{
+    float: left;
+    margin-right: 2vh;
+}
+
+
+.grid-container{
+display: grid;
+grid-column-gap: 0.5vw;
+grid-row-gap: 2vh;
+grid-template-columns: auto auto auto;
+}
+
+.grid1{
+    margin-right: 1vh;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    background-color: #5d2b36c4;
+    color: ivory;
+}
+.grid2{
+    margin-right: 1vh;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    border-radius: 5%;
+    background-color: #1706ff1a;
+ 
+}
+
+.grid2-grid1{
+    margin-top: 10vh;
+    grid-column-start: 1;
+    grid-column-end: 2; 
+}
+
+.grid2-grid2{
+    grid-column-start: 2;
+    grid-column-end: 3; 
+    grid-row-start: 1;
+    grid-row-end: 3; 
+}
+
+.grid2-grid3{
+    text-align: right;
+    margin-right: 5vh;
+    grid-column-start: 1;
+    grid-column-end: 2; 
+}
+
+.grid3{
+    padding: 20px;
+    margin-right: 1vh;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: #fcfcfc;
+}
+
+.grid4{
+    padding: 20px;
+    margin-right: 1vh;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: #fcfcfc;
+}
+
+.grid5{
+    padding: 20px;
+    margin-right: 1vh;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: #fcfcfc;
+    grid-column-start: 1;
+    grid-column-end: 4; 
+    grid-row-start: 4;
+    grid-row-end: 7; 
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.grid6{
+    padding: 20px;
+    /* width: 300px; */
+     /*height: max-content; */
+    grid-column-start: 3;
+    grid-column-end: 4; 
+    grid-row-start: 2;
+    grid-row-end: 4; 
+    background-color: ivory;
+}
+
+.grid5 img{
+    transition: transform .2s;   
+}
+.grid5 img :hover{
+    transform: scale(1.5);    
+}
+
+.grid5-grid1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.grid5-grid2{
+    padding: 20px;
+}
+.grid5-grid3{
+    padding: 20px;
+}
+.grid5-grid4{
+    padding: 20px;
+}
+.grid5-grid5{
+    padding: 20px;
+}
+.grid5-grid6{
+    padding: 20px;
+}
+.grid5-grid7{
+    padding: 20px;
+}
